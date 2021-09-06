@@ -1,8 +1,0 @@
-/usr/src/linux
-make clean
-make menuconfig
-make -j8 && make -j8 modules modules_install install
-
-genkernel --install --kernel-config=/usr/src/linux/.config initramfs
-
-
