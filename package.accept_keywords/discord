@@ -1,0 +1,7 @@
+#Required by steam
+=games-util/steam-launcher-1.0.0.62::steam-overlay ~amd64
+#Required by steam-meta
+=games-util/steam-meta-0-r20160817::steam-overlay ~amd64
+=games-util/steam-games-meta-0-r20191109::steam-overlay ~amd64
+=games-util/steam-client-meta-0-r20200328::steam-overlay ~amd64
+games-util/steam-meta ~amd64
